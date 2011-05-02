@@ -29,3 +29,30 @@ table {
 }
 
 /* Custom Style */
+html {
+	background-color: #171717;
+}
+
+.main {
+	text-align: center;
+	margin: 10px auto 10px auto;
+	width: 600px;
+	height: 300px;
+	color: white;
+}
+
+.links {
+	margin: 20px 0px 20px 0px;
+}
+
+.footer {
+	text-align: center;
+	margin: 10px auto 10px auto;
+	width: 600px;
+}
+
+.footer p {
+	color: #1DAB35;
+	font-style: italic;
+	font-size: smaller;
+}
