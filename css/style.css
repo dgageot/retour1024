@@ -33,12 +33,26 @@ html {
 	background-color: #171717;
 }
 
+a {
+	color: #1DAB35;
+}
+
 .main {
 	text-align: center;
 	margin: 10px auto 10px auto;
 	width: 600px;
 	height: 300px;
 	color: white;
+}
+
+.bio {
+	color: white;
+	margin: 0px 100px 100px 100px;
+	text-align: justify;
+}
+
+.bio p {
+	margin-bottom: 10px;
 }
 
 .links {
