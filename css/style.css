@@ -29,50 +29,28 @@ table {
 }
 
 /* Custom Style */
-html {
+body {
 	background-color: #171717;
+	color: white;
+}
+
+#bio {
+	background: url('../media/aboutme.jpg') no-repeat;
+	width: 1024px;
+	height: 640px;
+	position: absolute; 
+	left: 50%; 
+	top: 50%;
+	margin: -320px 0 0 -512px;
+	border: solid 1px rgb(100,100,100);
+}
+
+#bio p, #social {
+	margin: 40px 520px 0 50px;
+	font-family: 'Lato', sans-serif;	text-align: justify;
+	font-size: larger;
 }
 
 a {
-	color: #1DAB35;
-}
-
-.header {
-	text-align: center;
-	margin: 10px auto 10px auto;
-	width: 600px;
-	height: 200px;
-	color: white;
-}
-
-.bio {
-	color: white;
-	margin: 0px auto 100px auto;
-	text-align: justify;
-	width: 400px;
-}
-
-.bio p {
-	margin-bottom: 10px;
-}
-
-.bio .photo {
-	float: left;
-	margin-right: 10px;
-}
-
-.links {
-	margin: 20px 0px 20px 0px;
-}
-
-.footer {
-	text-align: center;
-	margin: 10px auto 10px auto;
-	width: 600px;
-}
-
-.footer p {
-	color: #1DAB35;
-	font-style: italic;
-	font-size: smaller;
+	color: rgb(115,230,0);
 }
