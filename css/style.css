@@ -61,13 +61,12 @@ a {
 	width: 450px;
 	position: relative;
 	background: #ba89b6;
-	color: #fff;
 	text-align: center;
 	padding: 1em .5em;
 	margin: 20px auto;
 }
 
-.ribbon a {
+.ribbon, .ribbon a {
 	color: white;
 }
 
