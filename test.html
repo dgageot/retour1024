@@ -13,6 +13,10 @@
             color: #5a5a5a;
         }
 
+        .carousel {
+            border-bottom: solid 1px gray;
+        }
+
         .carousel .container {
             position: relative;
         }
@@ -59,6 +63,7 @@
 
         #activites {
             padding-top: 60px;
+            padding-bottom: 60px;
         }
 
         .marketing .span4 {
@@ -76,36 +81,29 @@
         .marketing img {
             width: 220px;
             height: 220px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
 
-        .featurette-divider {
-            margin: 80px 0;
+        #codestory {
+            height: 700px;
+            display: block;
+            background: black url('/assets/img/stars.png') no-repeat top left;
+            background-size: 1400px 700px;
         }
 
-        .featurette {
-            padding-top: 120px;
-            overflow: hidden;
+        #codestory .caption {
+            background-color: transparent;
+            position: static;
+            max-width: 475px;
+            padding: 0 15px 0 20px;
+            margin-top: 150px;
+            color: white;
         }
 
-        .featurette-image {
-            margin-top: -120px;
+        #codestory .caption p {
+            text-align: justify;
         }
 
-        .featurette-image.pull-left {
-            margin-right: 40px;
-        }
-
-        .featurette-image.pull-right {
-            margin-left: 40px;
-        }
-
-        .featurette-heading {
-            font-size: 50px;
-            font-weight: 300;
-            line-height: 1;
-            letter-spacing: -1px;
-        }
     </style>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -127,10 +125,10 @@
                     <a href="#activites">Activités</a>
                 </li>
                 <li class="">
-                    <a href="#contact">Contact</a>
+                    <a href="#codestory">Code-Story</a>
                 </li>
                 <li class="">
-                    <a href="#social">Social</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -196,12 +194,12 @@
                     pouvant comprendre votre activité et qui vous aidera à prendre du recul sur vos pratiques de
                     développement ?</p>
 
-                <p>Je suis en permanence à la recherche de missions, <a href="contact">contactez-moi</a> et nous
+                <p>Je suis en permanence à la recherche de missions, <a href="#contact">contactez-moi</a> et nous
                     trouverons ensemble comment intervenir sur votre projet.</p>
 
                 <p><i class="icon-heart"></i>&nbsp;Ce que mes clients pensent de moi, sur <a
                         href="http://fr.linkedin.com/in/davidgageot">Linkedin</a> ou <a
-                        href="http://www.hopwork.com/profile/51028e06d393273e34aefeee#/reco">HopWork</a>.</p>
+                        href="http://www.hopwork.com/profile/51028e06d393273e34aefeee#reco">HopWork</a>.</p>
             </div>
             <div class="span4">
                 <img src="/assets/img/formation.png">
@@ -221,35 +219,35 @@
     </div>
 </section>
 
-<section id="contact">
-    <hr class="featurette-divider">
+<section id="codestory">
+    <div class="container">
+        <div class="caption">
+            <p class="lead">CodeStory est un concours de code récurrent organisé par David Gageot et
+                Jean-Laurent de
+                Morlhon. L’année dernière, avant Devoxx France 2012, nous avons organisé un concours afin
+                d’élire le
+                binôme
+                qui allait coder avec nous en live durant la conférence. Les gagnants, Eric & Sebastian Le
+                Merdy,
+                nous
+                ont
+                également accompagné à Devoxx World en novembre dernier.</p>
 
-    <div class="featurette">
-        <img class="featurette-image pull-right" src="/assets/img/examples/browser-icon-chrome.png">
-
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.</p>
+            <p class="lead">CodeStory est un concours de code récurrent organisé par David Gageot et
+                Jean-Laurent de
+                Morlhon. L’année dernière, avant Devoxx France 2012, nous avons organisé un concours afin
+                d’élire le
+                binôme
+                qui allait coder avec nous en live durant la conférence. Les gagnants, Eric & Sebastian Le
+                Merdy,
+                nous
+                ont
+                également accompagné à Devoxx World en novembre dernier.</p>
+        </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="featurette">
-        <img class="featurette-image pull-left" src="/assets/img/examples/browser-icon-firefox.png">
-
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
-            semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.</p>
-    </div>
-
-    <hr class="featurette-divider">
 </section>
 
-<section id="social">
+<section id="contact">
 </section>
 
 <footer>
@@ -257,7 +255,6 @@
 </footer>
 
 <script src="/assets/js/jquery.min.js"></script>
-<script src="/assets/js/holder.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 </body>
 </html>
