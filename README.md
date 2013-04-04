@@ -6,7 +6,6 @@ Pour tester
 A faire
 =======
 
- + Section CodeStory (Summary, mini-sites, équipe)
  + Section BBL (Sessions, planning, autres baggers)
  + Liens vers toutes mes présentations
  + Formation test avancé
