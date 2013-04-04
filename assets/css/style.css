@@ -35,7 +35,7 @@ body {
 }
 
 #bio {
-	background: url('../media/aboutme.jpg') no-repeat;
+	background: url('/assets/img/aboutme.jpg') no-repeat;
 	width: 1024px;
 	height: 640px;
 	position: absolute; 
