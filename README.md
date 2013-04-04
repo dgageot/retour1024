@@ -17,4 +17,5 @@ A faire
  + Flatter
  + Plus d'info OpenSource (TestExpert, ListMaker...)
  + Katas
+ + Konami code
  
