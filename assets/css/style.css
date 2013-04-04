@@ -114,6 +114,34 @@ i {
   left: 0;
 }
 
+#bbl {
+  position: relative;
+  height: 750px;
+  display: block;
+  background: url('/assets/img/background-grey-pattern.jpg') repeat;
+}
+
+#bbl .caption {
+  width: 700px;
+  margin-top: 60px;
+}
+
+#bbl p {
+  text-align: justify;
+}
+
+#bbl img {
+  margin-top: 500px;
+}
+
+#bbl .accordion-group {
+  background-color: white;
+}
+
+#bbl .accordion-heading {
+  background-color: aliceblue;
+}
+
 #contact {
   padding-top: 60px;
   padding-bottom: 60px;
