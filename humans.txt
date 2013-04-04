@@ -1,0 +1,10 @@
+/* TEAM */
+  David Gageot  
+  Contact: david [at] gmail.com
+  Twitter: @dgageot
+  From: Paris, France
+
+/* SITE */
+  Language: French
+  Doctype: HTML5
+  Techno: Jekyll, CSS3
