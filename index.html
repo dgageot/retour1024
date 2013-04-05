@@ -125,15 +125,6 @@ title: David Gageot - Retour1024
             </div>
             <div class="images">
                 <div id="myCarousel" class="carousel slide">
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                        <li data-target="#myCarousel" data-slide-to="4"></li>
-                        <li data-target="#myCarousel" data-slide-to="5"></li>
-                        <li data-target="#myCarousel" data-slide-to="6"></li>
-                    </ol>
                     <div class="carousel-inner">
                         <div class="active item">
                             <img src="/assets/img/code-story/1.jpg" alt>
@@ -355,6 +346,10 @@ title: David Gageot - Retour1024
 <script src="/assets/js/bootstrap.min.js"></script>
 <script>
     $(function () {
+        $('#myCarousel').carousel({
+            interval: 2000
+        })
+
         $('#bbl a').tooltip();
 
         var previousScrollTop, currentScrollTop, yPosition = 0;
