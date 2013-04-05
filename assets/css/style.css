@@ -115,15 +115,25 @@ i {
 }
 
 #bbl {
-  position: relative;
   height: 750px;
   display: block;
   background: url('/assets/img/background-grey-pattern.jpg') repeat;
 }
 
+#bbl .container {
+  position: relative;
+}
+
 #bbl .caption {
-  width: 700px;
+  width: 640px;
   margin-top: 60px;
+}
+
+#bbl .bag {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 0;
 }
 
 #bbl p {
@@ -131,7 +141,8 @@ i {
 }
 
 #bbl img {
-  margin-top: 500px;
+  margin-top: 115px;
+  margin-bottom: 15px;
 }
 
 #bbl .accordion-group {
@@ -139,7 +150,7 @@ i {
 }
 
 #bbl .accordion-heading {
-  background-color: aliceblue;
+  background-color: rgba(252, 240, 215, 0.25);
 }
 
 #contact {

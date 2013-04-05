@@ -209,7 +209,14 @@ title: David Gageot - Retour1024
 
 <section id="bbl">
     <div class="container">
-        <img class="pull-right" src="/assets/img/brownBag.png">
+        <div class="bag">
+            <img class="pull-right" src="/assets/img/brownBag.png">
+
+            <p class="lead">
+                <span class="label label-important">Important</span>&nbsp;les "baggers" sont sur
+                <a href="http://www.brownbaglunch.fr/">Brown Bag Lunch France</a>
+            </p>
+        </div>
 
         <div class="caption">
             <h2>Un Brown Bag Lunch ?
@@ -225,7 +232,7 @@ title: David Gageot - Retour1024
             <p class="lead"><strong>Qu’est-ce que j’y gagne ? </strong>Rencontrer de vraies personnes avec de vrais
                 questions. Et qui sait peut-être un futur client ?</p>
 
-            <p class="lead"><strong>Les Sujets possibles :</strong></p>
+            <p class="lead"><strong>Les sujets :</strong></p>
 
             <div class="accordion" id="accordion2">
                 <div class="accordion-group">
@@ -262,7 +269,7 @@ title: David Gageot - Retour1024
                     <div class="accordion-heading">
                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
                            href="#collapseThree">
-                            Mockito – Ecrire des tests simples et peu sensibles au refactoring<
+                            Mockito – Ecrire des tests simples et peu sensibles au refactoring
                         </a>
                     </div>
                     <div id="collapseThree" class="accordion-body collapse">
@@ -320,11 +327,6 @@ title: David Gageot - Retour1024
                         </div>
                     </div>
                 </div>
-
-                <p class="lead">
-                    <span class="label label-important">Important</span>&nbsp;les "baggers" sont sur
-                    <a href="http://www.brownbaglunch.fr/">Brown Bag Lunch France</a>
-                </p>
             </div>
         </div>
     </div>
@@ -353,6 +355,8 @@ title: David Gageot - Retour1024
 <script src="/assets/js/bootstrap.min.js"></script>
 <script>
     $(function () {
+        $('#bbl a').tooltip();
+
         var previousScrollTop, currentScrollTop, yPosition = 0;
         $(window).scroll(function () {
             currentScrollTop = $(window).scrollTop();
