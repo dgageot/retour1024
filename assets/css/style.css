@@ -194,6 +194,10 @@ footer a.alone {
   display: block;
 }
 
+#legal {
+  margin-top: 80px;
+}
+
 #red-green-refactor {
   animation: rotation 4s ease 3s 1;
   -moz-animation: rotation 4s ease 3s 1;

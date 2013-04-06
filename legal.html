@@ -1,22 +1,31 @@
 ---
 layout: default
 title: David Gageot - Retour1024
+home: /
 ---
 
-<body data-spy="scroll" data-target="#main-nav" data-offset="60">
+<body>
 
-<div id="main-nav" class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <ul class="nav">
-                <li class="active"><a href="/#bio">Bio</a></li>
-                <li><a href="/#activites">Activités</a></li>
-                <li><a href="/#codestory">Code-Story</a></li>
-                <li><a href="/#bbl">Brown Bag Lunch</a></li>
-                <li><a href="/#contact">Contact</a></li>
-            </ul>
+{% include header.html %}
+
+<div class="container" id="legal">
+    <div class="row">
+        <div class="span4">
+            <address>
+                <strong>RETOUR1024</strong><br>
+                SASU au capital de 1000&EUR;<br>
+                SIREN : 532 820 933, au RCS de Paris<br>
+                16 Cité de Trévise<br>
+                75009 Paris<br>
+                France<br>
+            </address>
+
+            <address>
+                <strong>David Gageot</strong><br>
+                <a href="mailto:david@gageot.net">david@gageot.net</a>
+            </address>
         </div>
     </div>
 </div>
-</body>
 
+{% include footer.html %}
