@@ -66,6 +66,39 @@ body {
 #activites {
   padding-top: 60px;
   padding-bottom: 60px;
+
+  #red-green-refactor {
+    animation: rotation 4s ease 3s 1;
+    -moz-animation: rotation 4s ease 3s 1;
+    -webkit-animation: rotation 4s ease 3s 1;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @-moz-keyframes rotation {
+    from {
+      -moz-transform: rotate(0deg);
+    }
+    to {
+      -moz-transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
 }
 
 .marketing {
@@ -194,38 +227,9 @@ footer {
 }
 
 #legal {
-  margin-top: 80px;
+  margin: 80px 0;
 }
 
-#red-green-refactor {
-  animation: rotation 4s ease 3s 1;
-  -moz-animation: rotation 4s ease 3s 1;
-  -webkit-animation: rotation 4s ease 3s 1;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@-moz-keyframes rotation {
-  from {
-    -moz-transform: rotate(0deg);
-  }
-  to {
-    -moz-transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes rotation {
-  from {
-    -webkit-transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-  }
+#formations {
+  margin: 80px 0;
 }
