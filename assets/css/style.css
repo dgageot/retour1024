@@ -7,11 +7,12 @@ i {
   margin-right: 10px;
 }
 
-#bio .carousel {
+#bio {
   border-bottom: solid 1px gray;
+  height: 500px;
 }
 
-#bio .carousel .container {
+#bio .container {
   position: relative;
 }
 
@@ -19,7 +20,7 @@ i {
   height: 500px;
 }
 
-#bio .carousel .background {
+#bio .background {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,7 +36,7 @@ i {
   margin-top: 95px;
 }
 
-#bio .carousel-caption .portrait {
+#bio .portrait {
   position: absolute;
   top: 85px;
   left: 600px;
@@ -43,14 +44,14 @@ i {
   height: 340px;
 }
 
-#bio .carousel-caption .lead {
+#bio .lead {
   line-height: 1.25;
   color: #fff;
   text-align: justify;
   margin: 0 0 15px;
 }
 
-#bio .carousel-caption a {
+#bio a {
   color: rgb(115, 230, 0);
   text-decoration: underline;
 }
@@ -108,14 +109,14 @@ i {
   text-align: justify;
 }
 
-#codestory img.header {
+#codestory .header {
   position: absolute;
   top: 0;
   left: 0;
 }
 
 #bbl {
-  height: 750px;
+  height: 740px;
   display: block;
   background: url('/assets/img/background-grey-pattern.jpg') repeat;
 }
