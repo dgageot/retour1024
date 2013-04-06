@@ -2,3 +2,26 @@ safe:        true
 auto:        true
 pygments:    true
 permalink:   /:year/:month/:day/:title.html
+
+code-story-images:
+  - image: /assets/img/code-story/1.jpg
+    caption: Concours 2013
+    description: La finale chez Google
+  - image: /assets/img/code-story/3.jpg
+    caption: Concours 2013
+    description: Le binôme gagnant
+  - image: /assets/img/code-story/2.jpg
+    caption: Concours 2012
+    description: Gilded Rose Refactoring Kata
+  - image: /assets/img/code-story/5.jpg
+    caption: Concours 2012
+    description: La finale au Paris JUG
+  - image: /assets/img/code-story/6.jpg
+    caption: Concours 2012
+    description: Le binôme gagnant
+  - image: /assets/img/code-story/7.jpg
+    caption: Devoxx France 2012
+    description: Debriefing avec les CastCoders
+  - image: /assets/img/code-story/4.jpg
+    caption: Devoxx Anvers 2012
+    description: L'équipe en pleine action
