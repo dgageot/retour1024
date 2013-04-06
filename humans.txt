@@ -7,4 +7,4 @@
 /* SITE */
   Language: French
   Doctype: HTML5
-  Techno: Jekyll, CSS3, GitHub
+  Techno: Jekyll, Less, Css3, GitHub
