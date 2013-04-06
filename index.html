@@ -7,206 +7,33 @@ home:
 <body data-spy="scroll" data-target="#main-nav" data-offset="60">
 
 {% include header.html %}
-
-<section id="bio">
-    <div class="carousel">
-        <div class="carousel-inner">
-            <img class="background" src="/assets/img/back.jpg" alt="">
-
-            <div class="container">
-                <div class="carousel-caption">
-                    <img class="portrait img-polaroid" src="/assets/img/hw_profile15_logo.jpg" alt="">
-
-                    <p class="lead">Bonjour, je suis <a href="http://twitter.com/dgageot">David
-                        Gageot</a>, développeur indépendant. Ma passion&nbsp;? L'écriture de logiciels pointus mais
-                        simples. J'ai pour leitmotiv d'être un facilitateur qui, par ma créativité et mon expertise,
-                        aide les équipes à être plus innovantes et plus efficaces.</p>
-
-                    <p class="lead">Je participe à des projets Java depuis 1998, comme responsable R&amp;D chez
-                        l'éditeur <a href="http://fr.adesoft.com/">Adesoft</a> puis directeur technique chez <a
-                                href="http://www.valtech.fr/fr">Valtech Technology</a>, CTO chez <a
-                                href="http://blog.javabien.net/?s=algodeal">Algodeal</a>, un fond d'investissement
-                        quantitatif puis développeur chez <a href="http://www.sonarsource.com/">SonarSource</a>, la
-                        société derrière <a href="http://www.sonarsource.org/">Sonar</a>.</p>
-
-                    <p class="lead">Vous suivez peut-être mon blog <a href="http://javabien.net/">JavaBien!</a>
-                        depuis 2004.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="activites">
-    <div class="container marketing">
-        <div class="row">
-            <div class="span4">
-                <img id="red-green-refactor" src="/assets/img/red-green-refactor.png">
-
-                <h2>Open-Source</h2>
-
-                <p>Depuis 2010, j'ai pris le leadership sur le projet open-source <a
-                        href="http://infinitest.github.com">Infinitest</a>, un plugin pour Eclipse et IntelliJ qui
-                    permet, après chaque changement de code, de jouer les tests unitaires potentiellement impactés.
-
-                <p>
-
-                <p><a href="http://infinitest.github.com">Infinitest</a> est l'outil rêvé pour les fans du TDD car il
-                    réduit les cycles de feedback.</p>
-
-                <p><i class="icon-info-sign"></i>Mes projets et contributions sont sur <a
-                        href="https://github.com/dgageot">GitHub</a>.</p>
-            </div>
-            <div class="span4">
-                <img src="/assets/img/cloud.png">
-
-                <h2>Développement</h2>
-
-                <p>Vous avez besoin d'un renfort expérimenté dans votre équipe de développement ? Ou bien vous
-                    recherchez
-                    un coach, un facilitateur ? Peut être venez-vous de lancer une startup et vous rêvez d'une personne
-                    pouvant comprendre votre activité et qui vous aidera à prendre du recul sur vos pratiques de
-                    développement ?</p>
-
-                <p>Je suis en permanence à la recherche de missions, <a href="mailto:david@gageot.net">contactez-moi</a>
-                    et nous
-                    trouverons ensemble comment intervenir sur votre projet.</p>
-
-                <p><i class="icon-heart"></i>Ce que mes clients pensent de moi, sur <a
-                        href="http://fr.linkedin.com/in/davidgageot">Linkedin</a> ou <a
-                        href="http://www.hopwork.com/profile/51028e06d393273e34aefeee#reco">HopWork</a>.</p>
-            </div>
-            <div class="span4">
-                <img src="/assets/img/formation.png">
-
-                <h2>Formation</h2>
-
-                <p>Je vais proposer dans les semaines qui viennent plusieurs formations sur les tests. Une formation
-                    pour confirmés et une autre au format BootCamp pour ceux qui en veulent toujours plus et qui n'ont
-                    pas peur de se faire mal avec du code !</p>
-
-                <p><i class="icon-check"></i>En attendant, allez lire ce que je raconte sur les tests <a
-                        href="https://speakerdeck.com/dgageot/lets-make-this-test-suite-run-faster-bejug">ici</a> ou <a
-                        href="https://speakerdeck.com/dgageot/mockito-ecrire-des-tests-unitaires-est-devenu-simple">là</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="codestory">
-    <div class="container">
-        <img class="header" src="/assets/img/header.png">
-
-        <div class="content">
-            <div class="caption">
-                <p class="lead">CodeStory est un concours de code récurrent que nous organisons à deux avec <a
-                        href="https://twitter.com/morlhon">Jean-Laurent de
-                    Morlhon</a>. En 2013 le concours avant Devoxx France a rassemblé <a
-                        href="http://status.code-story.net/">135 participants</a>.</p>
-
-                <p class="lead">Chaque édition du concours nous permet de sélectionner un binôme gagnant qui nous
-                    accompagne
-                    lors de nos sessions de coding live à Devoxx France et Devoxx Anvers.</p>
-
-                <p class="lead"><i class="icon-plus icon-white"></i>de détails sur notre <a
-                        href="http://code-story.net/">blog</a>
-                </p>
-            </div>
-            <div class="images">
-                <div id="myCarousel" class="carousel slide">
-                    <div class="carousel-inner">
-                        {% for item in site.code-story-images %}
-                        <div class="item {% if forloop.first %}active{% endif %}">
-                            <img src="{{item.image}}" alt="">
-
-                            <div class="carousel-caption">
-                                <h4>{{item.caption}}</h4>
-
-                                <p>{{item.description}}</p>
-                            </div>
-                        </div>
-                        {% endfor %}
-                    </div>
-                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="bbl">
-    <div class="container">
-        <div class="bag">
-            <img class="pull-right" src="/assets/img/brownBag.png">
-
-            <p class="lead">
-                <span class="label label-important">Important</span>&nbsp;les "baggers" sont sur
-                <a href="http://www.brownbaglunch.fr/">Brown Bag Lunch France</a>
-            </p>
-        </div>
-
-        <div class="caption">
-            <h2>Un Brown Bag Lunch ?
-                <small>(broun’bāg’)</small>
-            </h2>
-
-            <p class="lead"><strong>L’idée : </strong>certains parmi vous assistent à mes présentations lors de
-                JUGs/Conférences et aimeraient en faire profiter leurs collègues.</p>
-
-            <p class="lead"><strong>Une solution : </strong>je viens une heure dans votre entreprise, le midi.
-                Vous gérez les sandwichs, moi la présentation. Gratuitement bien sûr.</p>
-
-            <p class="lead"><strong>Qu’est-ce que j’y gagne ? </strong>Rencontrer de vraies personnes avec de vraies
-                questions. Et qui sait peut-être un futur client ?</p>
-
-            <p class="lead"><strong>Les sujets :</strong></p>
-
-            <div class="accordion" id="accordion2">
-                {% for post in site.categories.bbl %}
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2"
-                           href="#collapse{{forloop.index}}">
-                            {{post.title}}
-                        </a>
-                    </div>
-                    <div id="collapse{{forloop.index}}" class="accordion-body collapse">
-                        <div class="accordion-inner">
-                            {{post.content}}
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</section>
-
+{% include bio.html %}
+{% include activites.html %}
+{% include codestory.html %}
+{% include bbl.html %}
 {% include footer.html %}
 
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script>
-    $('#myCarousel').carousel({
-        interval: 2000
-    })
+  $('#myCarousel').carousel({
+    interval: 2000
+  });
 
-    var previousScrollTop, currentScrollTop, yPosition = 0;
-    $(window).scroll(function () {
-        currentScrollTop = $(window).scrollTop();
-        var diff = previousScrollTop - currentScrollTop;
-        if (isNaN(diff)) {
-            diff = 0;
-        }
-        yPosition = yPosition + diff;
-        previousScrollTop = currentScrollTop;
-        $('#codestory').css('background-position', '0 ' + yPosition + 'px, ' + //
-                '0 ' + yPosition * 2 + 'px, ' + //
-                '0 ' + yPosition * 5 + 'px, ' + //
-                '0 0');
-    });
+  var previousScrollTop, currentScrollTop, yPosition = 0;
+  $(window).scroll(function () {
+    currentScrollTop = $(window).scrollTop();
+    var diff = previousScrollTop - currentScrollTop;
+    if (isNaN(diff)) {
+      diff = 0;
+    }
+    yPosition = yPosition + diff;
+    previousScrollTop = currentScrollTop;
+    $('#codestory').css('background-position', '0 ' + yPosition + 'px, ' + //
+        '0 ' + yPosition * 2 + 'px, ' + //
+        '0 ' + yPosition * 5 + 'px, ' + //
+        '0 0');
+  });
 </script>
 </body>
 
