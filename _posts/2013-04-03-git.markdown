@@ -1,0 +1,5 @@
+---
+category: bbl
+title: Introduction à Git
+---
+Slides présentant les avantages de Git. En particulier la grande liberté laissée aux équipes, la tolérance au refactoring, l’utilisation dans l'analyse de régressions.

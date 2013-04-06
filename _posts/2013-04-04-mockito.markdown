@@ -1,0 +1,5 @@
+---
+category: bbl
+title: Mockito – Ecrire des tests simples et peu sensibles au refactoring
+---
+Slides démontrant l’utilisation de la librairie Mockito. L’accent est mis sur la forte tolérance au refactoring par rapport aux mocks codés à la main.
