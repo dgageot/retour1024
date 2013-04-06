@@ -4,81 +4,37 @@ title: David Gageot - Retour1024
 home: /
 ---
 
-<body>
+<body data-spy="scroll" data-target="#navformations">
 
 {% include header.html %}
 
 <div class="container" id="formations">
   <div class="row">
     <div class="span3">
-      <ul class="nav nav-list affix">
-        <li class="nav-header">Menu1</li>
-        <li><a href="#formation1" data-toggle="tab">Formation 1</a></li>
-        <li class="nav-header">Menu2</li>
-        <li><a href="#formation2" data-toggle="tab">Formation 2</a></li>
-        <li><a href="#formation3" data-toggle="tab">Formation 3</a></li>
+      <ul class="nav nav-list affix" id="navformations">
+        <li class="nav-header">Tests</li>
+        {% for post in site.categories.formation %}
+        <li><a href="#{{post.code}}">{{post.title}}</a></li>
+        {% endfor %}
       </ul>
     </div>
     <div class="span9">
-      <ul>
-        <li id="formation1">
-          <h2>Formation 1</h2>
+      {% for post in site.categories.formation %}
+      <section id="{{post.code}}">
+        <h2>{{post.title}}</h2>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-            Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-            cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-            ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-            felis ac turpis faucibus congue.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-            Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-            cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-            ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-            felis ac turpis faucibus congue.
-          </p>
-        </li>
-        <li id="formation2">
-          <h2>Formation 2</h2>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-            Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-            cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-            ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-            felis ac turpis faucibus congue.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-            Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-            cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-            ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-            felis ac turpis faucibus congue.
-          </p>
-        </li>
-        <li id="formation3">
-          <h2>Formation 3</h2>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-            Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-            cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-            ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-            felis ac turpis faucibus congue.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-            Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-            cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-            ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-            felis ac turpis faucibus congue.
-          </p>
-        </li>
-      </ul>
-      Bientôt !
+        {{post.content}}
+      </section>
+      {% if forloop.rindex > 1 %}
+      <hr>
+      {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
 
 {% include footer.html %}
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+</body>
