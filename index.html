@@ -16,7 +16,9 @@ home:
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 <script>
-  $(function () {
+  $(document).ready(function () {
+    $('body').scrollspy();
+
     $('#myCarousel').carousel({
       interval: 2000
     });
@@ -35,7 +37,7 @@ home:
           '0 ' + yPosition * 5 + 'px, ' + //
           '0 0');
     });
-  })
+  });
 </script>
 </body>
 

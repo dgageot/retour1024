@@ -3,6 +3,7 @@ category: formation
 famille: tests
 title: Formation
 code: tests-formation
+duration: 2 jours
 ---
 orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
 Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin

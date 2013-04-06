@@ -10,18 +10,30 @@ home: /
 
 <div class="container" id="formations">
   <div class="row">
-    <div class="span3">
+    <div class="span2">
       <ul class="nav nav-list affix" id="navformations">
         <li class="nav-header">Tests</li>
         {% for post in site.categories.formation %}
-        <li><a href="#{{post.code}}">{{post.title}}</a></li>
+        <li>
+          <i class="icon-chevron-right"></i>
+          <a href="#{{post.code}}">{{post.title}}</a>
+        </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="span9">
+    <div class="span10">
       {% for post in site.categories.formation %}
       <section id="{{post.code}}">
-        <h2>{{post.title}}</h2>
+        <div class="hero-unit">
+          <div class="row-fluid">
+            <div class="span10">
+              <h2>{{post.title}}</h2>
+            </div>
+            <div class="span2">
+              <h2><small>{{post.duration}}</small></h2>
+            </div>
+          </div>
+        </div>
 
         {{post.content}}
       </section>
@@ -37,5 +49,11 @@ home: /
 
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
-<script>$(document).ready(function(){$('body').scrollspy();});</script>
+<script>
+  $(document).ready(function () {
+    $('body').scrollspy({
+      offset: 100
+    });
+  });
+</script>
 </body>
