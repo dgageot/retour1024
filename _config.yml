@@ -1,7 +1,7 @@
 safe:        true
 auto:        true
 pygments:    true
-permalink:   /:year/:month/:day/:title.html
+permalink:   /:categories/:title.html
 
 code-story-images:
   - image: /assets/img/code-story/1.jpg

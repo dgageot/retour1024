@@ -10,7 +10,7 @@ home: /
 
 <div class="container" id="formations">
   <div class="row">
-    <div class="span2">
+    <div class="span3">
       <ul class="nav nav-list affix" id="navformations">
         <li class="nav-header">Tests</li>
         {% for post in site.categories.formation %}
@@ -21,21 +21,40 @@ home: /
         {% endfor %}
       </ul>
     </div>
-    <div class="span10">
+    <div class="span9">
       {% for post in site.categories.formation %}
       <section id="{{post.code}}">
         <div class="hero-unit">
           <div class="row-fluid">
             <div class="span10">
               <h2>{{post.title}}</h2>
+
+              <p class="mute">« {{post.subtitle}} »</p>
             </div>
             <div class="span2">
-              <h2><small>{{post.duration}}</small></h2>
+              <p>
+                <br>
+                <strong>{{post.duration}}</strong>
+                <br>
+                {{post.tarif}}
+              </p>
+
             </div>
           </div>
         </div>
 
-        {{post.content}}
+        {% if post.warning %}
+        <div class="alert">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>{{post.warning}}</strong>
+        </div>
+        {% endif %}
+        {{post.summary}}
+
+        <div class="text-right">
+          <br>
+          <a href="{{post.url}}" class="btn btn-primary text-right">Plus de détails »</a>
+        </div>
       </section>
       {% if forloop.rindex > 1 %}
       <hr>

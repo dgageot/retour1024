@@ -3,12 +3,11 @@ layout: fiche_formation
 home: /
 category: formation
 famille: tests
-title: Bootcamp Tests / TDD
-subtitle: Immersion intensive en code hostile
-code: tests-bootcamp
-duration: 4 jours
-tarif: 2000 euros
-warning: Attention cette formation peut changer radicalement votre façon de coder !
+title: Les tests de A à Z
+subtitle: De A comme Assert à Z comme ZombieJS
+code: tests-formation
+duration: 2 jours
+tarif: 1000 euros
 summary: orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
          Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
          cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
@@ -32,4 +31,14 @@ felis ac turpis faucibus congue.
 
 ### Deuxième jour
 
-TODO
+ + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
+Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
+cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
+ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
+felis ac turpis faucibus congue.
+
+ + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
+Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
+cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
+ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
+felis ac turpis faucibus congue.
