@@ -4,6 +4,8 @@
       <div class="span3">
         <h5>&copy; Retour 1024</h5>
         <a href="/legal.html">Mentions légales</a>
+        <br>
+        <a class="mailto" href="mailto:david@gageot.net">david@gageot.net</a>
       </div>
 
       <div class="span3" id="contact">
@@ -17,6 +19,7 @@
         <a href="http://www.hopwork.com/profile/51028e06d393273e34aefeee">HopWork</a>
       </div>
 
+      {% unless site.debug %}
       <div class="span3">
         <h5>Tweets</h5>
         <a class="twitter-timeline" width="220" height="270" data-dnt="true" href="https://twitter.com/dgageot"
@@ -32,6 +35,7 @@
           }
         }(document, "script", "twitter-wjs");</script>
       </div>
+      {% endunless %}
 
       <div class="span3">
         <a class="alone" href="/humans.txt" title="We are humans, not machines.">

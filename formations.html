@@ -6,7 +6,7 @@ home: /
 
 <body data-spy="scroll" data-target="#navformations">
 
-{% include header.html %}
+{% include header2.html %}
 
 <div class="container" id="formations">
   <div class="row">
@@ -26,19 +26,12 @@ home: /
       <section id="{{post.code}}">
         <div class="hero-unit">
           <div class="row-fluid">
-            <div class="span10">
-              <h2>{{post.title}}</h2>
+            <div class="span12">
+              <h2>{{post.name}}</h2>
+
+              <p class="pull-right"><strong>{{post.duration}}</strong></p>
 
               <p class="mute">« {{post.subtitle}} »</p>
-            </div>
-            <div class="span2">
-              <p>
-                <br>
-                <strong>{{post.duration}}</strong>
-                <br>
-                {{post.tarif}}
-              </p>
-
             </div>
           </div>
         </div>

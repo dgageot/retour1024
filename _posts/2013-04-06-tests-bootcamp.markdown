@@ -3,11 +3,12 @@ layout: fiche_formation
 home: /
 category: formation
 famille: tests
-title: Bootcamp Tests / TDD
+name: Bootcamp Tests / TDD
 subtitle: Immersion intensive en code hostile
 code: tests-bootcamp
 duration: 4 jours
 tarif: 2000 euros
+level: avancé
 warning: Attention cette formation peut changer radicalement votre façon de coder !
 summary: orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
          Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
@@ -16,7 +17,24 @@ summary: orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim
          felis ac turpis faucibus congue.
 ---
 
-### Premier jour
+### Objectifs
+
+ + FIRST
+ + SEDCOND
+ + THIRD
+ + FOURTH
+
+### Public visé
+
+Cette formation s’adresse aux développeurs Java qui souhaitent découvrir les méthodes et outils pour écrire des tests.
+
+### Pré-requis
+
+Maitriser Java.
+
+### Programme
+
+#### Premier jour
 
  + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
 Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
@@ -30,6 +48,16 @@ cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est 
 ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
 felis ac turpis faucibus congue.
 
-### Deuxième jour
+#### Deuxième jour
 
-TODO
+ + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
+Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
+cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
+ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
+felis ac turpis faucibus congue.
+
+ + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
+Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
+cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
+ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
+felis ac turpis faucibus congue.

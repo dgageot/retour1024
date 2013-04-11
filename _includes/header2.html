@@ -1,0 +1,13 @@
+<div id="main-nav" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <ul class="nav">
+        <li><a href="{{page.home}}#bio">Bio</a></li>
+        <li><a href="{{page.home}}#activites">Activités</a></li>
+        <li class="{% if page.url == '/formations.html' %}current{% endif %}"><a href="/formations.html">Formations</a>
+        </li>
+        <li><a href="{{page.home}}#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

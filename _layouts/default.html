@@ -18,10 +18,22 @@
   <!--[if lt IE 9]>
   <script src="/assets/js/html5shiv.js" type="text/javascript"></script>
   <![endif]-->
+
+  {% unless site.debug %}
+  <style>
+    @font-face {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+    }
+  </style>
+  {% endunless %}
 </head>
 
 {{content}}
 
+{% unless site.debug %}
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-23085510-1']);
@@ -35,4 +47,5 @@
     s.parentNode.insertBefore(ga, s);
   })();
 </script>
+{% endunless %}
 </html>

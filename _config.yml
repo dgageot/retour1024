@@ -2,6 +2,7 @@ safe:        true
 auto:        true
 pygments:    true
 permalink:   /:categories/:title.html
+debug:       true
 
 code-story-images:
   - image: /assets/img/code-story/1.jpg
