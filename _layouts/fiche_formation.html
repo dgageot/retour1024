@@ -13,28 +13,30 @@ home: /
     <div class="span12">
       <div class="hero-unit">
         <div class="row-fluid">
-          <div class="span9">
+          <div class="span8">
             <h2>{{page.name}}</h2>
 
             <p class="mute">« {{page.subtitle}} »</p>
           </div>
-          <div class="span3">
+          <div class="span4">
             <p>
               <strong>Durée : </strong>{{page.duration}}
               <br>
-              <strong>Niveau : </strong>{{page.level}}
-              <br>
               <strong>Tarif : </strong>{{page.tarif}}
               <br>
-              <a class="btn btn-primary"
-                 href="mailto:david@gageot.net?body=Bonjour,&#37;0D&#37;0DJ'aimerais avoir plus d'informations sur cette formation.&#37;0D&#37;0DMerci.&subject=[Formation] {{page.name}}"
-                 target="contact">Obtenir des informations</a>
+              <strong>Dates : </strong>{{page.date1}}
             </p>
           </div>
         </div>
         <div class="row-fluid">
           <div class="span12">
             <p class="summary">{{page.summary}}</p>
+            <br>
+            <div class="text-right">
+              <a class="btn btn-primary"
+               href="mailto:david@gageot.net?body=Bonjour,&#37;0D&#37;0DJ'aimerais avoir plus d'informations sur cette formation.&#37;0D&#37;0DMerci.&subject=[Formation] {{page.name}}"
+               target="contact">Obtenir des informations</a>
+            </div>
           </div>
         </div>
       </div>
@@ -47,7 +49,7 @@ home: /
         <h4>Prochaine date</h4>
         Les inscriptions pour la session du <strong>{{page.date1}}</strong> sont ouvertes.<br>
         <a href="mailto:david@gageot.net?body=Bonjour,&#37;0D&#37;0DJ'aimerais avoir plus d'informations sur cette formation.&#37;0D&#37;0DMerci.&subject=[Formation] {{page.name}}"
-           target="contact">Contactez moi</a> pour vous inscrire ou pour plus d'informations.
+           target="contact">Contactez moi</a> pour vous inscrire ou pour obtenir plus d'informations.
       </div>
 
       {{content}}

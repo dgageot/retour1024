@@ -50,17 +50,11 @@ home: /
                 {{post.summary}}
               </p>
             </div>
+
+            <div class="text-right">
+               <a href="{{post.url}}" class="btn btn-primary text-right">Plus de détails »</a>
+            </div>
           </div>
-        </div>
-
-        {% if post.warning %}
-        <div class="alert">
-          <strong>{{post.warning}}</strong>
-        </div>
-        {% endif %}
-
-        <div class="text-right">
-          <a href="{{post.url}}" class="btn btn-primary text-right">Plus de détails »</a>
         </div>
       </section>
       {% endfor %}
