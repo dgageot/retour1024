@@ -32,7 +32,8 @@ summary: Ok, je sais écrire un test. Comment puis-je m'améliorer maintenant ? 
 
 ### Pré-requis
 
- + Maitriser Java. Savoir écrire des tests unitaires simples (ou compliqués :-) )
+ + Maitriser Java.
+ + Savoir écrire des tests unitaires simples (ou compliqués :-) )
 
 ### Programme
 
