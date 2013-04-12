@@ -15,6 +15,7 @@ summary: Ok, je sais écrire un test. Comment puis-je m'améliorer maintenant ? 
          Peut-on couvrir 100% d'un code par les tests ? Quel est l'intérêt de savoir le faire ?
          Comment l'approche TDD, Test Driven Development, peut m'aider ?
          Comment être autonome dans le choix des outils / stratégies / techniques de test ?
+date1:   18 au 21 juin 2013
 ---
 
 ### Vous allez apprendre à :
@@ -25,17 +26,17 @@ summary: Ok, je sais écrire un test. Comment puis-je m'améliorer maintenant ? 
  + Expliquer ce que voulez faire, parceque ça aide à faire
  + Aller jusqu'au bout des choses pour fixer ensuite vous-même la limite
 
-### Public visé
+### Public visé :
 
  + Développeurs Java confirmés ou expérimentés souhaitant améliorer leur capacité à écrire
    du code testé.
 
-### Pré-requis
+### Pré-requis :
 
  + Maitriser Java.
  + Savoir écrire des tests unitaires simples (ou compliqués :-) )
 
-### Programme
+### Programme :
 
 #### Premier jour
 
