@@ -6,7 +6,7 @@ famille: tests
 name: Les tests de A à Z
 subtitle: De A comme Assert à Z comme ZombieJS
 code: tests-formation
-duration: 2 jours
+duration: 2 jours (14h)
 level: débutant
 tarif: 1000 euros
 summary: Que dois-je tester ? Comment dois-je tester ?
@@ -20,20 +20,20 @@ summary: Que dois-je tester ? Comment dois-je tester ?
          de la pure théorie.
 ---
 
-### Objectifs
+### Vous allez apprendre à :
 
  + Comprendre l'importance d'un code bien testé
- + Savoir utiliser des outils d'écriture de tests
- + Apprendre à "faire" et à expliquer ce que l'on veut faire
- + Savoir combiner plusieurs techniques de test
+ + Utiliser des outils d'écriture de tests
+ + Expliquer ce que voulez faire, parceque ça aide à faire
+ + Combiner plusieurs techniques de test
 
 ### Public visé
 
-Cette formation s’adresse aux développeurs Java qui souhaitent découvrir les méthodes et outils pour écrire des tests.
+ + Développeurs Java souhaitant découvrir les méthodes et outils pour écrire des tests.
 
 ### Pré-requis
 
-Maitriser Java.
+ + Savoir programmer en Java.
 
 ### Programme
 
