@@ -9,19 +9,23 @@ code: tests-formation
 duration: 2 jours
 level: débutant
 tarif: 1000 euros
-summary: orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-         Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-         cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-         ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-         felis ac turpis faucibus congue.
+summary: Que dois-je tester ? Comment dois-je tester ?
+         Unitaire, fonctionnel, d'intégration...
+         Quels sont les types de tests ? Faut-il vraiment les catégoriser ?
+         Quelle couverture de code par les tests ? 80% ? 100% ?
+         Est-ce que "tester, c'est douter" ?
+         Tester avant ? Test après ? Mock ou pas mock ?
+         Voici les questions que l'on me pose au jour le jour. Cette formation tente d'y répondre.
+         Comment ? Le moins de slides possible, des interactions et de l'action plutôt que
+         de la pure théorie.
 ---
 
 ### Objectifs
 
- + FIRST
- + SEDCOND
- + THIRD
- + FOURTH
+ + Comprendre l'importance d'un code bien testé
+ + Savoir utiliser des outils d'écriture de tests
+ + Apprendre à "faire" et à expliquer ce que l'on veut faire
+ + Savoir combiner plusieurs techniques de test
 
 ### Public visé
 
@@ -35,28 +39,8 @@ Maitriser Java.
 
 #### Premier jour
 
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
-
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
+ + bientôt :-)
 
 #### Deuxième jour
 
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
-
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
+ + bientôt :-)

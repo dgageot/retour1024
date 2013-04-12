@@ -10,54 +10,45 @@ duration: 4 jours
 tarif: 2000 euros
 level: avancé
 warning: Attention cette formation peut changer radicalement votre façon de coder !
-summary: orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-         Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-         cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-         ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-         felis ac turpis faucibus congue.
+summary: Ok, je sais écrire un test. Comment puis-je m'améliorer maintenant ? Pas où commencer ?
+         Quels outils vont me permettre à mieux comprendre ce que je fais et ce que je dois faire ?
+         Peut-on couvrir 100% d'un code par les tests ? Quel est l'intérêt de savoir le faire ?
+         Comment l'approche TDD, Test Driven Development, peut m'aider ?
 ---
 
 ### Objectifs
 
- + FIRST
- + SEDCOND
- + THIRD
- + FOURTH
+ + Savoir maîtriser les outils d'écriture de tests
+ + Etre à l'aise autant en test-first qu'en test-last
+ + Apprendre à "faire" et à expliquer ce que l'on veut faire
+ + Savoir combiner plusieurs techniques de test
+ + Aller jusqu'au bout des choses pour fixer ensuite soi-même la limite
 
 ### Public visé
 
-Cette formation s’adresse aux développeurs Java qui souhaitent découvrir les méthodes et outils pour écrire des tests.
+Cette formation s’adresse aux développeurs Java confirmés ou expérimentés qui souhaitent
+améliorer leur capacité à écrire du code testé. L'accent est mis sur les connaissances
+et la mise en pratique nécessaires pour gagner en autonomie dans le choix de stratégies, techniques
+ et outils de test.
 
 ### Pré-requis
 
-Maitriser Java.
+Maitriser Java. Savoir écrire des tests unitaires simples (ou compliqués :-) )
 
 ### Programme
 
 #### Premier jour
 
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
-
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
+ + bientôt :-)
 
 #### Deuxième jour
 
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
+ + bientôt :-)
 
- + orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at enim massa. Suspendisse vitae sem diam.
-Donec quis turpis et mauris placerat viverra a ultricies eros. Curabitur semper, ligula nec sollicitudin
-cursus, arcu orci tempor dui, luctus eleifend odio nisl mollis augue. Donec est nibh, egestas vel placerat
-ac, rhoncus ut urna. Morbi sem sem, semper in rhoncus eu, congue et augue. Suspendisse potenti. In aliquet
-felis ac turpis faucibus congue.
+#### Troisième jour
+
+ + bientôt :-)
+
+#### Quatrième jour
+
+ + bientôt :-)

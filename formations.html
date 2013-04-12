@@ -22,12 +22,21 @@ home: /
       </ul>
     </div>
     <div class="span9">
+      <h2>Formations</h2>
+
+      <p class="intro">
+        Je propose des formations destinées aux développeurs qui souhaitent améliorer leur habilité à écrire du code
+        testé. Ces formations sont le fruit de mon expérience et de mon travail. Elles se veulent le plus pédagogique
+        possible. Elles mettent l'accent sur la mise en pratique plus que sur des slides, en particulier la
+        formation de type "BootCamp" destinée à ceux qui n'ont pas peur de se faire mal avec du code !
+      </p>
+
       {% for post in site.categories.formation %}
       <section id="{{post.code}}">
         <div class="hero-unit">
           <div class="row-fluid">
             <div class="span12">
-              <h2>{{post.name}}</h2>
+              <h2><a href="{{post.url}}">{{post.name}}</a></h2>
 
               <p class="pull-right"><strong>{{post.duration}}</strong></p>
 
@@ -42,16 +51,16 @@ home: /
           <strong>{{post.warning}}</strong>
         </div>
         {% endif %}
-        {{post.summary}}
+
+        <p>
+          {{post.summary}}
+        </p>
 
         <div class="text-right">
           <br>
           <a href="{{post.url}}" class="btn btn-primary text-right">Plus de détails »</a>
         </div>
       </section>
-      {% if forloop.rindex > 1 %}
-      <hr>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
