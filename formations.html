@@ -40,24 +40,21 @@ home: /
 
               <p class="pull-right"><strong>{{post.duration}}</strong></p>
 
-              <p class="mute">« {{post.subtitle}} »</p>
+              <p>« {{post.subtitle}} »</p>
+              <p>
+                {{post.summary}}
+              </p>
             </div>
           </div>
         </div>
 
         {% if post.warning %}
         <div class="alert">
-          <button type="button" class="close" data-dismiss="alert">&times;</button>
           <strong>{{post.warning}}</strong>
         </div>
         {% endif %}
 
-        <p>
-          {{post.summary}}
-        </p>
-
         <div class="text-right">
-          <br>
           <a href="{{post.url}}" class="btn btn-primary text-right">Plus de détails »</a>
         </div>
       </section>
