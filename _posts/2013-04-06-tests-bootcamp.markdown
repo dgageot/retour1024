@@ -10,7 +10,7 @@ duration: 4 jours (28h)
 tarif: 2000 euros
 level: avancé
 warning: Attention cette formation peut changer radicalement votre façon de coder !
-summary: Ok, je sais écrire un test. Comment puis-je m'améliorer maintenant ? Pas où commencer ?
+summary: Ok, je sais écrire un test. Comment puis-je m'améliorer maintenant ? Par où commencer ?
          Quels outils vont me permettre à mieux comprendre ce que je fais et ce que je dois faire ?
          Peut-on couvrir 100% d'un code par les tests ? Quel est l'intérêt de savoir le faire ?
          Comment l'approche TDD, Test Driven Development, peut m'aider ?
