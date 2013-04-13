@@ -24,7 +24,7 @@ home: /
               <br>
               <strong>Tarif : </strong>{{page.tarif}}
               <br>
-              <strong>Dates : </strong>{{page.date1}}
+              <span class="text-error"><strong>Dates : </strong>{{page.date1}}</span>
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ home: /
             <div class="text-right">
               <a class="btn btn-primary"
                href="mailto:david@gageot.net?body=Bonjour,&#37;0D&#37;0DJ'aimerais avoir plus d'informations sur cette formation.&#37;0D&#37;0DMerci.&subject=[Formation] {{page.name}}"
-               target="contact">Obtenir des informations</a>
+               target="contact">S'inscrire ou obtenir des informations</a>
             </div>
           </div>
         </div>
@@ -45,13 +45,6 @@ home: /
 
   <div class="row">
     <div class="span12">
-      <div class="alert alert-success">
-        <h4>Prochaine date</h4>
-        Les inscriptions pour la session du <strong>{{page.date1}}</strong> sont ouvertes.<br>
-        <a href="mailto:david@gageot.net?body=Bonjour,&#37;0D&#37;0DJ'aimerais avoir plus d'informations sur cette formation.&#37;0D&#37;0DMerci.&subject=[Formation] {{page.name}}"
-           target="contact">Contactez-moi</a> pour vous inscrire ou pour obtenir plus d'informations.
-      </div>
-
       {{content}}
     </div>
   </div>

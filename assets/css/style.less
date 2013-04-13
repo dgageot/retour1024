@@ -254,6 +254,10 @@ footer {
     }
   }
 
+  h2 {
+    margin-top: 0;
+  }
+
   p {
     text-align: justify;
     font-size: 16px;
@@ -264,8 +268,6 @@ footer {
   }
 
   section {
-    padding-top: 30px;
-    margin-top: -30px;
     margin-bottom: 40px;
 
     .hero-unit {
@@ -291,16 +293,26 @@ footer {
     padding: 40px;
   }
 
-  dt {
-    width: 185px;
-  }
-
-  dd {
-    margin-left: 185px+20px;
-    margin-bottom: 20px;
-  }
-
   .label-info {
     margin-bottom: 10px;
+  }
+
+  .well {
+    padding-bottom: 0;
+    background-color: rgb(244, 251, 255);
+    border-color: rgb(131, 167, 201);
+
+    dl {
+      margin: 0;
+    }
+
+    dt {
+      width: 185px;
+    }
+
+    dd {
+      margin-left: 185px+20px;
+      margin-bottom: 20px;
+    }
   }
 }
