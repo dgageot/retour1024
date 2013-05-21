@@ -24,7 +24,9 @@ home: /
               <br>
               <strong>Tarif : </strong>{{page.tarif}}
               <br>
+              {% if page.date1 %}
               <span class="text-error"><strong>Dates : </strong>{{page.date1}}</span>
+              {% endif %}
             </p>
           </div>
         </div>
@@ -33,13 +35,9 @@ home: /
             <p class="summary">{{page.summary}}</p>
             <br>
             <div class="text-right">
-              {% if page.eventbrite %}
-              <a class="btn btn-success" href="{{page.eventbrite}}">S'inscrire maintenant sur Eventbrite</a>
-              /
-              {% endif %}
               <a class="btn btn-primary"
                href="mailto:david@gageot.net?body=Bonjour,&#37;0D&#37;0DJ'aimerais avoir plus d'informations sur cette formation.&#37;0D&#37;0DMerci.&subject=[Formation] {{page.name}}"
-               target="contact">S'inscrire sans EventBrite ou obtenir plus d'informations</a><br>
+               target="contact">S'inscrire ou obtenir plus d'informations</a><br>
             </div>
           </div>
         </div>
