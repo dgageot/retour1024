@@ -1,7 +1,7 @@
 Pour tester
 ===========
 
-    jekyll --auto --server
+    jekyll serve --watch
 
 A faire
 =======
