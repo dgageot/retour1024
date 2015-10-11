@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dgageot
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://retour1024.fr
+  * I am dgageot (https://keybase.io/dgageot) on keybase.
+  * I have a public key with fingerprint 65D5 6C85 C3E2 D178 8B74  748A BD07 EF32 CB52 2D64
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e184fac6521011013e2d2e3594a8bb2048f7b13a745872b2abc887e04a460f480a",
+            "fingerprint": "65d56c85c3e2d1788b74748abd07ef32cb522d64",
+            "host": "keybase.io",
+            "key_id": "bd07ef32cb522d64",
+            "kid": "0101e184fac6521011013e2d2e3594a8bb2048f7b13a745872b2abc887e04a460f480a",
+            "uid": "4de4a39b485f094b02ef69bdf3a8d819",
+            "username": "dgageot"
+        },
+        "service": {
+            "hostname": "retour1024.fr",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1444594027,
+    "expire_in": 157680000,
+    "prev": "340d6c1ceabb5acb9aa2ace229ef67f8f3e8f9a9fe416665b86d62ccd17568c6",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.47
+Comment: https://keybase.io/crypto
+
+yMIeAnicrVJbSBVBGD7HvJRiFtRLFMG+BGE2O2d2dvZgFEXJoSgJKx+i08zO7Dmb
+unvcs2pi0oNoQaYIFhZKodFDguFD+WKhZVEUZdGVLmJ0J4ruBRXNSr312DAw/P98
+3zff/88/lj8tlBu+f+kq7aqwM8JXRg/WhDbPG61oUJjL65Vog1Ihpg5RyUXaj1fY
+XIkqQAWqUAmyqIk1KAO5IwJyKCKagShhDAJELJ2pEaojjeiQQcpMQnQBEEUYWIgA
+qhQqlu0khJfybMeXsljjGjaJZgZaqk4I05GOCGUc6MKKQJNpEHKMJDHppgOGNMdo
+WhTZrszJID5l7x/4/+y7ZkoOcYFoxGCIaBYwEANQWNhg3IpQwolqBMC08BxaJSSa
+J2hCuL7SWKjIZK1tiqCvQSF/AJ7w3RpPBRAVWZ7kpjzXd023Ul4lfT8VDZh+fSqA
+1gkW/yMSZ7bDZRsloVZ4adt1lKgqkaZvB6oqQkjWBqBeqIidKdsTcTtAaDomQK7g
+GVErJSMIcGyqpqCMadRkBqWQmgJCQxalW8SKCGIZ1LAEUjHGGiOYY2ia8qM0TEys
+BGVVO64SxdImTUjJtJ1wqF/jCaXx3MjWzFA4N5SdlRGMVyh3xqy/Q3c2nPNrUfaj
+8hPe7Kwn9MLxuwvOXgczxzphQerK86Fln7xWWB1b09bUiUva3/5cg08PbMnZn8Hd
+hSN16+Hejtbix5uMQXxah/GeZHfO5KsVw2VzGg+9bC4t2vG6oKf/Ls0/de1ruRe7
+GMsbqI+l+p92f37wZcOJgSz8cE+yeOLN5CBfWrzyA1h6+Xvf0W/Dq0NHrzdc+9G6
+7UbL8vF37cBZl5zbu7V8vn++N/fkpr7d/oHF4b4LNtnl9YHqle9vZbulQxD3V9GO
+lions/vMYd5Y9qhtwDxWeWTtx6FV77Z3xSaGs5aUjN3cd/vY9LLvva33Ys/ObLwz
+HmvIqTNesKa85nH9Nwd4QJU=
+=1uJC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dgageot
+
+==================================================================
